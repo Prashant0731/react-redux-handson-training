@@ -302,7 +302,7 @@ console.log(oddNumbers);
 ```
 
 ## Destructuring
-[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) | 
 [Destructuring Examples](https://gist.github.com/mikaelbr/9900818)
 
 
