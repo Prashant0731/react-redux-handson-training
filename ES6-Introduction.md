@@ -11,7 +11,7 @@
 * [Class](#class)
 * [Arrow Function](#arrow-function)
 * [Destructuring](#destructuring)
-* [Spread Operator](#spread-operator)
+
 
 ## Transpiller
 > What will be the problem if we use ES6? `All browsers are not updated to ES6. They are still using ES5.`
@@ -284,6 +284,27 @@ var employee=new Employee('pankaj',90000);
 employee.showEmployeeDetail();
 
 ```
+## Arrow Function
+Find out the odd numbers from the range of 1 to 10 numbers.
+without arrow function
+```
+let numbers =[1,2,3,4,5,6,7,8,9,10];
+let oddNumbers = numbers.filter(function(number){
+    return (number % 2);
+});
+console.log(oddNumbers);
+```
+with arrow function
+```
+let numbers =[1,2,3,4,5,6,7,8,9,10];
+let oddNumbers = numbers.filter((number)=>(number % 2));
+console.log(oddNumbers);
+```
+
+## Destructuring
+[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+[Destructuring Examples](https://gist.github.com/mikaelbr/9900818)
+
 
 
 
