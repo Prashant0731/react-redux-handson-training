@@ -42,7 +42,7 @@ node test.js
 
 Make a small change in your app, remove var, save everything and rerun your app.
 
-### Strict Mode
+## Strict Mode
 > The fifth edition of ECMAScript specification introduces the Strict Mode.
 
 > make below changes in your test.js file and rerun your app.
