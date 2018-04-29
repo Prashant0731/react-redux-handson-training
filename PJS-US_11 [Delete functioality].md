@@ -9,6 +9,7 @@
 - Each li should have an id that has the issue position
 - Delete button should have access to the issue id
 - Clicking delete should update issueList.issues and DOM
+- setup event listener
 
 ## Code Snippet
 
@@ -98,4 +99,30 @@ Note :  change the handlers.deleteIssue () method
        // deleteIssuePositionInput.value='';
     }
 ````
+
+### setup event listener
+```
+var view = {
+   ---------------,
+   ---------------,
+    
+    setUpEventListener: function(){
+        var issuesUl =  document.querySelector('ul');
+        issuesUl.addEventListener('click',function(event){
+        // get the target element that is clicked
+        var elementClicked =  event.target;
+        // check if element clicked is deleteIssue button
+        if(elementClicked.className === 'deleteIssue'){
+            // call handlers deleteIssue method
+            handlers.deleteIssue(parseInt(elementClicked.parentNode.id));
+        }
+        console.log(event.target.parentNode.id);
+        });
+    }
+};
+
+Note :  call below method outside of the object.
+
+view.setupEventListener();
+```
 
