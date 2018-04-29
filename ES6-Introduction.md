@@ -42,6 +42,22 @@ node test.js
 
 Make a small change in your app, remove var, save everything and rerun your app.
 
+### Strict Mode
+> The fifth edition of ECMAScript specification introduces the Strict Mode.
+
+> make below changes in your test.js file and rerun your app.
+```
+"use strict"
+message = "hello world";
+console.log(message);
+```
+save the changes and rerun your test.js file useing `node test.js` command on command prompt.
+> you'll get ouput as 
+message = "hello world";
+        ^
+ReferenceError: message is not defined
+
+
 
 
 
