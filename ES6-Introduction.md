@@ -1,7 +1,7 @@
 # Contents
 
 * [Topics](#topics)
-** [Test](#test)
+* [Test](#test)
 * [Code Snippet](#code-snippet)
 
 
