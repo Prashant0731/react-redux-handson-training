@@ -57,6 +57,8 @@ message = "hello world";
         ^
 ReferenceError: message is not defined
 
+`you can also use the strict mode inside scope, like function or if block etc.it will make impose the strict mode inside the block.`
+
 
 
 
